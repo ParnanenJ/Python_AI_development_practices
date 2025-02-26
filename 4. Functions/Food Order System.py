@@ -32,7 +32,7 @@ def create_summary(name, amount, food_type):
     return "Meal not found"
 
 print("Welcome to the Food Order System!")
-type_input = input("What type of food you ike to order: ")
+type_input = input("What type of food you like to order: ")
 display_available_meals(type_input)
 name_input = input("Choose your meal: ")
 amount_input= input("quantity: ")
